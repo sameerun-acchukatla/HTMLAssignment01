@@ -1,0 +1,102 @@
+
+
+
+
+.container {
+    position: absolute;
+    height:100%;
+    left: 20%;
+    right: 20%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.main {
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding: 0 20px;
+    background-color: lightgray;
+}
+
+.menu {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background-color: burlywood;
+    height: 100%;
+}
+.menu h2{
+    text-align: center;
+}
+.menu a{
+    float: left;
+    color: black;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: purple;
+}
+.menu a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.name h2{
+    color: burlywood;
+}
+.quotation p{
+    font-family: "Bookman Old Style";
+}
+.image img {
+    float: right;
+    width: 25%;
+}
+
+.solidLine p{
+    border-style: solid;
+    border-color: burlywood;
+    text-align: left;
+}
+.tableContent table{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+
+.tableContent td {
+    border: 1px solid black;
+}
+
+.tableContent th{
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 8px;
+}
+
+.tableContent tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
